@@ -48,7 +48,7 @@ public class Cachelja : MonoBehaviour {
         RelativeMovementAnd player = other.GetComponent<RelativeMovementAnd>();
         if (player != null)
         {
-            Debug.Log("Коснулся качели!");
+            Debug.Log("Коснулся качели...");
             fly = true;
         }
 
